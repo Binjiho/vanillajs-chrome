@@ -10,7 +10,7 @@ function getWeather(lat,lon){
         const place = json.name;
         const description = json.weather[0].description;
         const temperature = json.main.temp;
-        weather.innerText = `장소:${place}
+        weather.innerText = `장소: ${place}
         온도: ${temperature}
         날씨: ${description}`;
     });
